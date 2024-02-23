@@ -1,0 +1,20 @@
+[package]
+name = "axum-bson"
+version = "0.1.0"
+edition = "2021"
+authors = ["SerP <serp256@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "axum bson extractor and response"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bson="2.9"
+axum-core = "*"
+serde = "*"
+http = "*"
+async-trait = "*"
+mime = "0.3"
+bytes = "*"
+http-body = "*"
+thiserror = "*"
