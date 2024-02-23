@@ -3,8 +3,10 @@ name = "axum-bson"
 version = "0.1.0"
 edition = "2021"
 authors = ["SerP <serp256@gmail.com>"]
-license = "MIT OR Apache-2.0"
+license = "MIT"
+license_file="LICENCE"
 description = "axum bson extractor and response"
+repository = "https://github.com/serp256/axum_bson.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
