@@ -7,6 +7,7 @@ license = "MIT"
 license_file="LICENCE"
 description = "axum bson extractor and response"
 repository = "https://github.com/serp256/axum_bson.git"
+keywords = ["axum","bson"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
