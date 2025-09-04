@@ -1,21 +1,20 @@
 [package]
-name = "axum-bson"
-version = "0.2.0"
-edition = "2021"
-authors = ["SerP <serp256@gmail.com>"]
+name = "axum-bcs"
+version = "0.1.0"
+edition = "2024"
+authors = ["NightFeather <leolee50910@gmail.com>"]
 license = "MIT"
-license_file = "LICENCE"
-description = "axum bson extractor and response"
-repository = "https://github.com/serp256/axum_bson.git"
-keywords = ["axum", "bson"]
+description = "Axum BCS extractor and response"
+repository = "https://github.com/NightFeather0615/axum-bcs.git"
+keywords = ["axum", "bcs"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bson = "2"
-axum-core = "0.5"
-serde = "1"
-http = "1"
-mime = "0.3"
-bytes = "1"
-thiserror = "1"
+bcs = "0.1.6"
+axum-core = "0.5.2"
+serde = "1.0.219"
+http = "1.3.1"
+mime = "0.3.17"
+bytes = "1.10.1"
+thiserror = "2.0.16"
